@@ -1,0 +1,14 @@
+Incident 2: Quantum-Resistant Key Leak
+Incident ID: INC-2029-0012
+
+Severity: Critical
+
+Timestamp: 2029-01-15 08:30:00 UTC
+
+Reporter: automated-sentinel-v9
+
+Description: During a routine migration to the New-Era Quantum Encryption standard, a temporary configuration file containing the private lattice-based keys for the global-auth-node was exposed on an internal IPFS gateway.
+
+Impact: Potential for "harvest now, decrypt later" attacks on encrypted legacy traffic.
+
+Actions Taken: Lattice keys rotated. Gateway access protocols updated to Bio-MFA.i
