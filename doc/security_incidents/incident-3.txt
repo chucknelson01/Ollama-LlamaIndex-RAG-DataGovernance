@@ -1,7 +1,7 @@
 Incident 3: Autonomous Vehicle Sabotage Attempt
 Incident ID: INC-2029-0911
 
-Severity: Medium
+Severity: High
 
 Timestamp: 2029-11-03 23:45:00 UTC
 
